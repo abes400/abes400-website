@@ -1,0 +1,97 @@
+[
+    {
+        "id": "Lunchpad",
+        "name": "Lunchpad",
+        "desc": "A Lauchpad/Soundboard application using a specified audio library system called Reopsitories.",
+        "readme": true,
+        "warning": "This application requires Java to run. ",
+        "releases": [
+            {
+                "version": "1.4",
+                "downloads": [
+                    {
+                        "os": "macOS",
+                        "url": "https://github.com/abes400/Lunchpad/releases/download/v1.2/Lunchpad.dmg"
+                    },
+                    {
+                        "os": "Windows",
+                        "url": "https://github.com/abes400/Lunchpad/releases/download/v1.2/Lunchpad.jar"
+                    }
+                ]
+            }
+            
+        ]
+    },
+
+    {
+        "id": "SLIC-Viewer",
+        "name": "SLIC Viewer",
+        "desc": "An image viewer application demonstrating the Image Compression format I've created, (Squares and Lines Image Compression, aka. SLIC). It can take bitmap images and compress them into SLIC file using the CODEC I implemented. The format is experimental.",
+        "readme": true,
+        "warning": "This application requires Java to run.",
+        "releases": [
+            {
+                "version": "1.0",
+                "downloads": [
+                    {
+                        "os": "macOS",
+                        "url": "https://github.com/abes400/SLIC-Viewer/releases/download/1.0/SLIC_Viewer.dmg"
+                    },
+                    {
+                        "os": "Windows",
+                        "url": "https://github.com/abes400/SLIC-Viewer/releases/download/1.0/SLIC_Viewer.jar"
+                    }
+                ]
+            }
+            
+        ]
+    },
+
+    {
+        "id": "Bomberbot",
+        "name": "Bomberbot",
+        "desc": "A simple Bomberman Clone made with Unity3D.",
+        "readme": true,
+        "releases": [
+            {
+                "version": "1.0",
+                "downloads": [
+                    {
+                        "os": "macOS",
+                        "url": "https://github.com/abes400/Bomberbot/releases/download/macOS/Bomberbot_v1_0.dmg"
+                    },
+                    {
+                        "os": "Windows",
+                        "url": "https://github.com/abes400/Bomberbot/releases/download/Windows/Install_Bomberbot_v1_0_Gaming_PCs.exe"
+                    }
+                ]
+            }
+            
+        ]
+    },
+
+    {
+        "id": "radio-atiim-stats",
+        "name": "Radio Atılıım Statistics Monitor",
+        "desc": "A utility developed for RADIO ATILIM to show streaming statistics.",
+        "readme": false,
+        "readmeloc": "",
+        "releases": [
+            {
+                "version": "1.1.0",
+                "downloads": [
+                    {
+                        "os": "macOS",
+                        "url": "https://github.com/abes400/radio-atilim-stats/releases/download/1.1.0/Radio-Atilim-Stats-1.1.0-universal.dmg"
+                    },
+                    {
+                        "os": "Windows",
+                        "url": "https://github.com/abes400/radio-atilim-stats/releases/download/1.1.0/Radio-Atilim-Stats-Setup-1.1.0.exe"
+                    }
+                ]
+            }
+            
+        ]
+    }
+    
+]
