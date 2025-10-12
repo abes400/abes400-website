@@ -1,7 +1,5 @@
-console.log("test");
 async function addPart(id, file) {
-    const elmnt = document.getElementById(id);
-    
+    const elmnt = document.getElementById(id);    
     try {
         const res = await fetch(file);
         const html = await res.text();
@@ -14,4 +12,5 @@ async function addPart(id, file) {
 document.addEventListener("DOMContentLoaded", () => {
 
     addPart('header', './header.html');
+    addPart('footer', './footer.html');
 });
