@@ -5,6 +5,14 @@
     box-sizing: border-box;
 }
 
+.card {
+    background-color: rgba(255, 255, 255, 0.568);
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.493);
+    padding: 15px;
+    backdrop-filter: blur(5px);
+    border-radius: 5px;
+}
+
 .topbottom {
     background-color: rgb(65, 65, 65);
     color: white;
@@ -46,7 +54,8 @@ a {
 }
 
 a:hover {
-    background-color: cadetblue;
+    background-color: rgb(114, 114, 114);
+    color: white !important;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.438);
 }
 
