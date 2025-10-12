@@ -1,7 +1,7 @@
 async function addPart(id, file) {
     const elmnt = document.getElementById(id);
     const resp = await fetch(file);
-    elmnt.innerHTML = resp.text();
+    elmnt.innerHTML = await resp.text();
 }
 
 document.addEventListener("DOMContentLoaded", () => {
