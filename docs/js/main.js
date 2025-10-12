@@ -5,5 +5,5 @@ async function addPart(id, file) {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-    addPart('header', 'header.html');
+    addPart('header', './header.html');
 });
