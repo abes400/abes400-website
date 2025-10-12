@@ -4,7 +4,6 @@ async function addPart(id, file) {
     await fetch(file).then((res) => {
         elmnt.innerHTML = res.text();
     });
-    
 }
 
 document.addEventListener("DOMContentLoaded", () => {
