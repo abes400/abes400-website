@@ -8,10 +8,15 @@
         <div id="header"></div>
         <main>
             <div class="home">
-                <strong class="big-title">WELCOME</strong>
-                <p>Welcome to the official website of <strong>Abes400</strong>.<br>Here, you can see my favourite projects and download them if you like.<br></p>
+                <div class="card-head">
+                    <strong class="title" style="font-size: 40pt;">HELLO</strong>
+                    <strong style="font-size: 20pt;">my name is</strong>
+                </div>
+                <div class="card-body" style="font-size: 100pt;">
+                    Abes400
+                </div>
 
-                <a href="projects.html">Check out our projects >>></a>
+                <div class="card-foot"></div>
                  
             </div>
         </main>
@@ -20,26 +25,45 @@
     </body>
 </html>
 <style>
-    .big-title {
-        font-size: 60pt;
+    .title {
+        margin-bottom: 10px;
+        line-height: 0.6;
+    }
+
+    .card-head {
+        background-color: rgb(255, 41, 41);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+
+        padding: 15px;
+    }
+
+    .card-body {
+        color: black;
+        font-family: 'Marker';
+        text-align: center;
+        line-height: 1.5;
+    }
+
+    .card-foot {
+        width: 100%;
+        height: 20px;
+        background-color: rgb(255, 41, 41);
+
+        position: absolute;
+        bottom: 0;
     }
 
     .home {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        width: 600px;
+        position: relative;
+        width: 500px;
         height: 300px;
-        padding: 40px;
-        gap: 20px;
+        background-color: white;
+        border-radius: 15px;
+        overflow: hidden;
 
-        background-color: rgb(65, 65, 65);
-        border-radius: 10px;
-        box-shadow: 0px 5px 5px gray;
-
-        text-align: center;
+        box-shadow: 0px 5px 5px rgb(109, 109, 109);
     }
 
     main {
@@ -47,4 +71,5 @@
         justify-content: center;
         align-items: center;
     }
+
 </style>
