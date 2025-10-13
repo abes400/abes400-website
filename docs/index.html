@@ -15,7 +15,7 @@
                         <strong style="font-size: 20pt;">my name is</strong>
                     </div>
                     <div class="hello-card-body" style="font-size: 120pt;">
-                        Abes400
+                        <div class="name">Abes400</div>
                     </div>
                     <div class="hello-card-foot"></div>
                 </div>
@@ -55,14 +55,20 @@
     }
 
     .hello-card-body {
-        color: black;
+        
         background-color: white;
         color-scheme: only light;
-        font-family: 'Marker';
-        text-align: center;
-        line-height: 1.5;
-
         height: 100%;
+        position: relative;
+    }
+
+    .name {
+        color: black;
+        color-scheme: only light;
+        font-family: 'Marker';
+        position: absolute;
+        text-align: center;
+        width: 100%;
     }
 
     .hello-card-foot {
@@ -77,12 +83,28 @@
     .hello-card {
         position: relative;
         width: 100%;
-        height: 350px;
+        height: 330px;
         border-radius: 15px;
         overflow: hidden;
 
         box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.493);
 
+        rotate: calc(-15deg);
+        z-index: 100;
+
+        animation: hello-slide 0.6s ease-out;
+
+    }
+
+    @keyframes hello-slide {
+        from {
+            transform: translate(-300px, -105%);
+            rotate: calc(15deg);
+        }
+        to {
+            transform: translate(0, 0);
+            rotate: calc(-15deg);
+        }
     }
 
     .content {
@@ -91,12 +113,13 @@
         text-align: center;
         gap: 50px;
 
-        width: 550px;
+        width: 540px;
 
         position: absolute;
-        top: 50%;  
+        top: 100px;
         left: 50%;
-        transform: translate(-50%, -55%);
+        transform: translate(-50%, 0);
+
 
     }
 
