@@ -38,7 +38,7 @@ footer {
 
 main { 
     min-height: 100dvh;
-    background-image: url('./assets/homebg.jpg');
+    background-image: url('../assets/homebg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
