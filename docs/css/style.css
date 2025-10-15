@@ -44,10 +44,20 @@ footer {
 
 main { 
     min-height: 100dvh;
+}
+
+body {
     background-image: url('../assets/homebg.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+}
+
+.page {
+    margin: 20px;
+    width: calc(100% - 40px);
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
 icon {
