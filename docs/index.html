@@ -110,12 +110,20 @@
         width: 540px;
         position: absolute;
         margin-bottom: 100px;
+        transform: scale(1);
     }
 
     main {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    @media (max-height: 780px) {
+        main {
+            align-items: flex-start; /* yukarıdan hizala */
+            padding-top: 150px;      /* üstten 100px boşluk */
+        }
     }
 
 </style>
