@@ -17,24 +17,29 @@
     position: relative;
     background-color: rgb(66, 66, 66);
     color: white;
+    align-items: center;
     
     width: 100%;
     gap: 20px;
-    padding: 10px;  
+    display: flex;
 }
 
 header {
     height: 50px;
-    display: flex;
     justify-content: center;
-    align-items: center;
+    
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.288);
+    padding: 10px;  
 }   
 
 footer {
     height: 100px;
     color: rgb(131, 131, 131) !important;
     box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.288);
+    padding-left: 60px;
+    padding-right: 30px;
+
+    position: relative;
 }
 
 main { 
@@ -45,20 +50,25 @@ main {
     background-size: cover;
 }
 
+icon {
+    font-family: 'Social';
+    font-size: 20pt;
+}
+
+
 a {
     color: rgb(131, 131, 131) !important;
 }
 
-a {
+a:not(nav2 a) {
     text-decoration: none !important;
-    font-weight: bold;
     color: white;
     padding: 10px;
     border-radius: 5px;
 
 }
 
-a:hover {
+a:hover:not(nav2 a){
     background-color: rgb(114, 114, 114);
     color: white !important;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.438);
@@ -69,6 +79,19 @@ a:visited {
     font-weight: bold;
     color: white;
     
+}
+
+nav2 {
+    display: flex;
+    gap: 10px;
+}
+
+nav2 a {
+    text-decoration: none !important;
+}
+
+nav2 a:hover {
+    color: white !important;
 }
 
 @font-face {
@@ -89,5 +112,12 @@ a:visited {
   font-family: 'Primary';
   src: url('../assets/GillSansHeavy.woff2') format('opentype');
   font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Social';
+  src: url('../assets/smedia.ttf') format('truetype');
+  font-weight: normal;
   font-style: normal;
 }
