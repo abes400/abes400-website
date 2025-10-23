@@ -6,16 +6,16 @@
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.568);
-    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.493);
+    background-color: #f9f7f4;
+    box-shadow: 0px 5px 10px #0000007e;
     padding: 15px;
-    backdrop-filter: blur(5px);
-    border-radius: 5px;
+    /*backdrop-filter: blur(5px);*/
+    border-radius: 3px;
 }
 
 .topbottom {
     position: relative;
-    background-color: rgb(66, 66, 66);
+    background-color: #424242;
     color: white;
     align-items: center;
     
@@ -28,14 +28,14 @@ header {
     height: 50px;
     justify-content: center;
     
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.288);
+    box-shadow: 0px 5px 5px #00000049;
     padding: 10px;  
 }   
 
 footer {
     height: 100px;
-    color: rgb(131, 131, 131) !important;
-    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.288);
+    color: #838383 !important;
+    box-shadow: 0px -5px 5px #00000049;
     padding-left: 60px;
     padding-right: 30px;
 
@@ -56,7 +56,8 @@ body {
 .page {
     margin: 20px;
     width: calc(100% - 40px);
-    max-width: 1200px;
+    max-width: 1000px;
+    min-height: 100vh;
     margin: 20px auto;
 }
 
@@ -67,7 +68,7 @@ icon {
 
 
 a {
-    color: rgb(131, 131, 131) !important;
+    color: #838383 !important;
 }
 
 a:not(nav2 a) {
@@ -79,9 +80,9 @@ a:not(nav2 a) {
 }
 
 a:hover:not(nav2 a){
-    background-color: rgb(114, 114, 114);
+    background-color: #727272;
     color: white !important;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.438);
+    box-shadow: 0px 5px 5px #00000070;
 }
 
 a:visited {
