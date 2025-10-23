@@ -36,7 +36,7 @@
 }
 
 header {
-    height: 50px;
+    height: 50dp;
     justify-content: center;
     
     box-shadow: 0px 5px 5px #00000049;
