@@ -1,3 +1,13 @@
+@media (orientation: portrait) {
+    .topbottom {
+        zoom: 1.8;
+    }
+
+    .page {
+        zoom: 1.8;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
