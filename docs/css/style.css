@@ -1,12 +1,4 @@
-@media (orientation: portrait) {
-    .topbottom {
-        zoom: 1.8;
-    }
 
-    .page {
-        zoom: 1.8;
-    }
-}
 
 
 * {
@@ -36,17 +28,16 @@
 }
 
 header {
-    height: 50dp;
     justify-content: center;
     
     box-shadow: 0px 5px 5px #00000049;
-    padding: 10px;  
+    padding: 5px;  
 }   
 
 footer {
-    height: 100px;
     color: #838383 !important;
     box-shadow: 0px -5px 5px #00000049;
+    padding: 10px;
     padding-left: 60px;
     padding-right: 30px;
 
