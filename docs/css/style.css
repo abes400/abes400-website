@@ -1,3 +1,14 @@
+@media (orientation: portrait) {
+    .topbottom {
+        zoom: 1.8;
+    }
+
+    .page {
+        zoom: 1.8;
+    }
+}
+
+
 * {
     margin: 0;
     padding: 0;
@@ -57,8 +68,11 @@ body {
     margin: 20px;
     width: calc(100% - 40px);
     max-width: 1000px;
-    min-height: 100vh;
     margin: 20px auto;
+}
+
+.long {
+    min-height: 100vh;
 }
 
 icon {
