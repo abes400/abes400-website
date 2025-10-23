@@ -10,20 +10,49 @@
             <div class="card page">
                 <p>
                     <center>
-                        <h3>Selected Projects</h3>
+                        <h3>Selected Projects</h3><br>
                         Here you will find some of my personal projects which are my favourite.
                     </center>
-                </p>
-
-                <div class="grid">
-                    <div class="proj">
-                        <img src="https://picsum.photos/seed/picsum/200/300">
-                        <div class="proj-title">
-                            <h4>Title here</h4>
-                            Description here
+                    <div class="grid">
+                        <div class="proj">
+                            project
                         </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        <div class="proj">
+                            project
+                        </div>
+                        
                     </div>
-                </div>
+                </p>
 
                 
 
@@ -39,55 +68,27 @@
         height: 100%;
 
         display: block;
-        margin-top: 20px;
 
-        @media (orientation: landscape) and (min-width: 600px) {
+        @media (min-width: 600px) {
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-gap: 10px;
 
             .proj {
                 margin: 0 !important;
-                height: 260px !important;
-                display: block !important;
-            }
-
-            img {
-                width: 100% !important;
-                height: 167px !important;
+                height: 200px !important;
             }
         }
 
         @media (min-width: 900px) {
             grid-template-columns: repeat(3, 1fr);
         }
+
         
         .proj {
+            background-color: rgb(182, 81, 81);
             margin-bottom: 10px;
             height: 150px;
-
-            border: solid;
-
-            border-color: rgb(197, 197, 197);
-            border-width: 1px;
-            border-radius: 5px;
-
-            overflow: hidden;
-
-            display: flex;
-
-            img {
-                width: 200px;
-                height: 100%;
-                
-                object-fit: cover;
-                object-position: center;
-            }
-
-            .proj-title {
-                padding: 5px;
-            }
-
         }
     }
 
