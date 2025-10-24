@@ -1,0 +1,105 @@
+@media(orientation: portrait) {
+    .topbottom {zoom:1.8;}
+}
+
+main { 
+    min-height: 100vh;
+}
+
+body {
+    background-color:burlywood;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Primary';
+    box-sizing: border-box;
+}
+
+.topbottom {
+    width: 100%;
+    background-color: #424242;
+    display: flex;
+    
+    align-items: center;
+
+
+    a {
+        text-decoration: none;
+        padding: 8px;
+        color:  white;
+        border-radius: 5px;
+    }
+
+    a:visited {
+        text-decoration: none !important;
+        font-weight: bold;
+        color: white;
+        
+    }
+}
+
+icon {
+    font-family: 'Social';
+    font-size: 20pt;
+}
+
+header {
+    position: relative;
+    height: 50px;
+    box-shadow: 0px 5px 5px #00000049;
+    justify-content: center;
+
+    a:hover {
+        background-color: #727272;
+        box-shadow: 0px 5px 5px #00000070;
+    }
+}
+
+footer {
+    height: 100px;
+    box-shadow: 0px -5px 5px #00000049;
+    padding-left: 60px;
+    padding-right: 30px;
+
+    position: relative;
+    color: #838383 !important;
+
+    font-size: 10pt;
+
+    a {
+        color: #838383 !important;
+    }
+}
+
+
+
+
+@font-face {
+  font-family: 'Marker';
+  src: url('../assets/BlackRavens.woff2') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Primary';
+  src: url('../assets/GillSans.woff2') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Primary';
+  src: url('../assets/GillSansHeavy.woff2') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Social';
+  src: url('../assets/smedia.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
