@@ -80,6 +80,15 @@ footer {
     }
 }
 
+.page {
+    margin: 20px;
+    width: calc(100% - 40px);
+    max-width: 1000px;
+    min-height: 100vh;
+    margin: 20px auto;
+    background-color: beige;
+}
+
 
 
 
