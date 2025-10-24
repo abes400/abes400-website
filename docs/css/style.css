@@ -4,7 +4,7 @@
     main {zoom: 1.8;}
 }
 
-@media(orientation: landscape) {
+@media(orientation: landscape), (pointer: fine) {
     body {
         background-image: url('../assets/homebg.jpg');
         background-attachment: fixed;
