@@ -2,17 +2,19 @@
     .topbottom {zoom:1.8;}
 }
 
-main { 
-    min-height: 100vh;
+@media(orientation: landscape) {
+    body {
+        background-image: url('../assets/homebg.jpg');
+        background-attachment: fixed;
+        background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    }
 }
 
-body {
-    background-image: url('../assets/homebg.jpg');
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+main { 
+    min-height: 100vh;
 }
 
 * {
