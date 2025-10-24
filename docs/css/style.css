@@ -7,7 +7,9 @@ main {
 }
 
 body {
-    background-color:burlywood;
+    background-image: url('../assets/homebg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 * {
