@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <title>Projects - ABES400</title>
         <link rel="stylesheet" href="./css/style.css">
@@ -37,7 +37,7 @@
             projects.forEach((project) => {
                 projectDOM += `
                     <div class="proj scalable" href="www.google.com">
-                        <img src="./data/projects/${project.id}/photo.png">
+                        <img src="./data/projects/${project.id}/photo.png" alt="${project.tnalt}">
                         <div class="proj-title">
                             <h4>${project.name}</h4>
                             ${project.desc}
@@ -73,15 +73,15 @@
                 height: 260px !important;
                 display: block !important;
 
-            }
+                img {
+                    width: 100% !important;
+                    height: 167px !important;
+                }
 
-            img {
-                width: 100% !important;
-                height: 167px !important;
-            }
+                .proj-title {
+                    width: 100% !important;
+                }
 
-            .proj-title {
-                width: 100% !important;
             }
         }
 
@@ -97,8 +97,8 @@
 
             border: solid;
 
-            border-color: rgb(197, 197, 197);
-            border-width: 1px;
+            border-color: rgb(168, 168, 168);
+            border-width: 2px;
             border-radius: 5px;
 
             overflow: hidden;
@@ -116,6 +116,8 @@
                 
                 object-fit: cover;
                 object-position: top;
+
+                background-color: rgb(215, 215, 215);
             }
 
             .proj-title {
