@@ -1,7 +1,7 @@
 @media(orientation: portrait) and (pointer: coarse),
      (orientation: portrait) and (pointer: none) {
     .topbottom {zoom:1.8;}
-    .page {zoom: 1.8;}
+    main :not(home) {zoom: 1.8;}
 }
 
 @media(orientation: landscape), (pointer: fine) {
