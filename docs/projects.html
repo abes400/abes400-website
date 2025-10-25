@@ -15,15 +15,7 @@
                     </center>
                 </p>
 
-                <div class="grid">
-                    <div class="proj">
-                        <img src="https://picsum.photos/seed/picsum/200/300">
-                        <div class="proj-title">
-                            <h4>Title here</h4>
-                            Description here
-                        </div>
-                    </div>
-                </div>
+                <div class="grid" id="project-grid"></div>
 
 
             </div>
@@ -32,6 +24,34 @@
         <script src="js/main.js"></script>
     </body>
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        fetch('./data/projects.json')
+        .then(response => response.json())
+        .then(projects => {
+            const projectGrid = document.getElementById('project-grid');
+            let projectDOM = '';
+            let coeff = -1;
+
+            projects.forEach((project) => {
+                projectDOM += `
+                    <div class="proj" href="www.google.com">
+                        <img src="./data/projects/${project.id}/photo.png">
+                        <div class="proj-title">
+                            <h4>${project.name}</h4>
+                            ${project.desc}
+                        </div>
+                    </div>
+                `
+            });
+            
+            projectGrid.innerHTML = projectDOM;
+            
+        })
+    
+    });
+</script>
 
 
 <style>
