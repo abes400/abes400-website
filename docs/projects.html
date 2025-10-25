@@ -34,13 +34,13 @@
 
             projects.forEach((project) => {
                 projectDOM += `
-                    <div class="proj scalable" href="www.google.com">
+                    <a class="proj scalable" href="www.google.com">
                         <img src="./data/projects/${project.id}/photo.png" alt="${project.alt}">
                         <div class="proj-title">
                             <h4>${project.name}</h4>
                             ${project.desc}
                         </div>
-                    </div>
+                    </a>
                     
                 `
             });
@@ -94,10 +94,7 @@
             margin-bottom: 10px;
             height: 150px;
 
-            border: solid;
-
-            border-color: rgb(168, 168, 168);
-            border-width: 1px;
+            border: 1px solid #a8a8a8;
             border-radius: 5px;
 
             overflow: hidden;
@@ -108,6 +105,9 @@
             box-shadow: 0px 3px 5px #0000007e;
 
             display: flex;
+
+            color: black !important;
+            text-decoration: none;
 
             img {
                 width: 200px;
