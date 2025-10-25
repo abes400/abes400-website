@@ -7,7 +7,7 @@
     <body>
         <div id="header"></div>
         <main>
-            <div class="page">
+            <div class="page scalable">
                 <p>
                     <center>
                         <h3>Selected Projects</h3>
@@ -36,7 +36,7 @@
 
             projects.forEach((project) => {
                 projectDOM += `
-                    <div class="proj scalable" href="www.google.com">
+                    <div class="proj" href="www.google.com">
                         <img src="./data/projects/${project.id}/photo.png">
                         <div class="proj-title">
                             <h4>${project.name}</h4>
