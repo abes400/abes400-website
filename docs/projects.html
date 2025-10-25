@@ -8,11 +8,9 @@
         <div id="header"></div>
         <main>
             <div class="page">
-                <p>
-                    <center class="scalable">
-                        <h3>Selected Projects</h3>
+                <p class="title card scalable" style="text-align: center;">
+                        <strong>Selected Projects</strong><br>
                         Here you will find some of my personal projects which are my favourite.
-                    </center>
                 </p>
 
                 <div class="grid" id="project-grid"></div>
@@ -99,7 +97,7 @@
             border: solid;
 
             border-color: rgb(168, 168, 168);
-            border-width: 2px;
+            border-width: 1px;
             border-radius: 5px;
 
             overflow: hidden;
@@ -128,5 +126,11 @@
 
             }
         }
+    }
+
+    .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 </style>

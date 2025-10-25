@@ -88,6 +88,14 @@ footer {
     width: calc(100% - 40px);
     max-width: 1000px;
     margin: 20px auto;
+
+    .card {
+        background-color: whitesmoke;
+        box-shadow: 0px 2px 3px #00000070;
+        padding: 10px;
+    }
+
+    .title {width: 500px;}
 }
 
 
