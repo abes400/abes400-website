@@ -4,14 +4,16 @@
 }
 
 @media(orientation: landscape), (pointer: fine) {
-    body {
-        background-image: url('../assets/homebg.jpg');
-        background-attachment: fixed;
-        background-size: cover;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-    }
+    
+}
+
+body {
+    background-image: url('../assets/homebg.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
 }
 
 main { 
