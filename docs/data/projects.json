@@ -2,28 +2,28 @@
     {
         "id": "Lunchpad",
         "name": "Lunchpad",
-        "tnalt": "Example GUI of Lunchpad.",
+        "alt": "Example GUI of Lunchpad.",
         "desc": "A Lauchpad/Soundboard application using a specified repository system."
     },
 
     {
         "id": "SLIC-Viewer",
         "name": "SLIC Viewer",
-        "tnalt": "Example GUI of SLIC-Viewer.",
+        "alt": "Example GUI of SLIC-Viewer.",
         "desc": "An image viewer application demonstrating the Image Compression format I've created."
     },
 
     {
         "id": "Bomberbot",
         "name": "Bomberbot",
-        "tnalt": "Bomberbot holding a bomb against his enemy, who is frightened.",
+        "alt": "Bomberbot holding a bomb against his enemy, who is frightened.",
         "desc": "A simple Bomberman Clone made with Unity3D."
     },
 
     {
         "id": "radio-atilim-stats",
         "name": "Radio Atılıım Statistics Monitor",
-        "tnalt": "Example GUI of Radio Atılıım Statistics Monitor",
+        "alt": "Example GUI of Radio Atılıım Statistics Monitor",
         "desc": "A utility developed for RADIO ATILIM to show streaming statistics."
     }
     

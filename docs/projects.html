@@ -37,12 +37,13 @@
             projects.forEach((project) => {
                 projectDOM += `
                     <div class="proj scalable" href="www.google.com">
-                        <img src="./data/projects/${project.id}/photo.png" alt="${project.tnalt}">
+                        <img src="./data/projects/${project.id}/photo.png" alt="${project.alt}">
                         <div class="proj-title">
                             <h4>${project.name}</h4>
                             ${project.desc}
                         </div>
                     </div>
+                    
                 `
             });
 
