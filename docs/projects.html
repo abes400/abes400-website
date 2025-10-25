@@ -79,6 +79,13 @@
 
                 .proj-title {
                     width: 100% !important;
+
+                    height: calc(100% - 167px);
+                    mask-image: linear-gradient(to bottom, black 0, black calc(100% - 45px), transparent 100%);
+                    mask-repeat: no-repeat;
+
+                    -webkit-mask-image: linear-gradient(to bottom, black 0, black calc(100% - 45px), transparent 100%);
+                    -webkit-mask-repeat: no-repeat;
                 }
 
             }
@@ -123,8 +130,9 @@
                 padding: 10px;
                 width: calc(100% - 200px);
                 font-size: 12pt;
-
+                overflow: hidden;
             }
+
         }
     }
 
